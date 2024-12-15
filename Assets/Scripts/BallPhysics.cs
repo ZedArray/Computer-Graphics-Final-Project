@@ -8,8 +8,8 @@ public class BallPhysics : MonoBehaviour
     void Start()
     {
         float sx = Random.Range(0, 2) == 0 ? -1 : 1;
-        float sy = Random.Range(0, 2) == 0 ? -1 : 1;
-        GetComponent<Rigidbody>().linearVelocity = new Vector3(ball_speed * sx, ball_speed * sy, 0f);
+        float sz = Random.Range(0, 2) == 0 ? -1 : 1;
+        GetComponent<Rigidbody>().linearVelocity = new Vector3(ball_speed * sx, 0f, ball_speed * sz);
     }
 
     // Update is called once per frame

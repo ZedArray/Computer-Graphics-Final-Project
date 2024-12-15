@@ -8,9 +8,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Ping Pong.unity
     guid: 664d687795d819f4c922204df44c36f2
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 9609d1a99a1008a4099a2cb4a82c39ae
+  - enabled: 1
+    path: Assets/Scenes/2D Pong.unity
+    guid: 5cac6bf8ece4f07439a9b4f888d1e0ba
+  - enabled: 1
+    path: Assets/Scenes/3D Pong.unity
+    guid: 409cfb754f7e5354c98c556a20467082
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

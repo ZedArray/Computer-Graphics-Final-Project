@@ -6,15 +6,15 @@ public class BumperController : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.y > -4f){
+        if (transform.position.x < 14.25f){
             if (Input.GetKey(KeyCode.S)){
-                transform.position -= new Vector3(0f, bumper_speed * Time.deltaTime, 0f);
+                transform.position += new Vector3(bumper_speed * Time.deltaTime, 0f, 0f);
             }
         }
 
-        if (transform.position.y < 6f){
+        if (transform.position.x > 4.3f){
             if (Input.GetKey(KeyCode.W)){
-                transform.position += new Vector3(0f, bumper_speed * Time.deltaTime, 0f);
+                transform.position -= new Vector3(bumper_speed * Time.deltaTime, 0f, 0f);
             }
         }
 
